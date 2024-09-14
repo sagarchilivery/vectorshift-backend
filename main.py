@@ -9,7 +9,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Allow frontend origin
+    allow_origins=["http://localhost:3000" , "https://vectorshift.sagarchilivery.online"],  # Allow frontend origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
